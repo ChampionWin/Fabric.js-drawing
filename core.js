@@ -1,7 +1,3 @@
-/*
-Author: SWAGAT PARIDA
-*/  
-
         var copiedObject;
         var copiedObjects = new Array();
         var canvasScale = 1;

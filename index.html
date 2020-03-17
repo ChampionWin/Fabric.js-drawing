@@ -12,6 +12,7 @@
 
 </head>
 <body onload="onload();">
+    <input type="file" name="file" style="background-color: black; color: yellow;" onclick="onUpload" />
     <input type="button" value="start drawing" style="background-color: black; color: yellow;" onclick="onStartDrawing();" />
     <input type="button" value="stop drawing" style="background-color: black; color: yellow;" onclick="onStopDrawing();" />
     <input type="button" value="solid circle" style="background-color: black; color: yellow;" onclick="onSolidCircle();" />
@@ -19,7 +20,7 @@
     <input type="button" value="zoom in" style="background-color: black; color: yellow;" onclick="onZoomIn();" />
     <input type="button" value="zoom out" style="background-color: black; color: yellow;" onclick="onZoomOut();" />
     <input type="button" value="reset zoom" style="background-color: black; color: yellow;" onclick="onResetZoom();" />
-    <canvas id="canvas" width="1000" height="800"></canvas>
+    <canvas id="canvas" width="1000" height="1000"></canvas>
 
     <script src="core.js"></script>
   

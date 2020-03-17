@@ -23,12 +23,13 @@
                 left: 100,
                 width: 60,
                 height: 70,
-                fill: '',
                 selection: false,
-                fill: '#f55'
+                fill: '#f55',
+                angle: 45
             });
-
             canvas.add(rect);
+            rect.set({left: 200, top: 200});
+            canvas.renderAll();
         }
 
         var onStartDrawing = function () {
